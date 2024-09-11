@@ -5,16 +5,32 @@
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="favicon.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
   <title>Title</title>
   <link rel="stylesheet" href="/sass/main.scss">
 </head>
 
 <body>
 
-  <main>
-    content goes here
-  </main>
-
+  <div class="container">
+    <div class="cards-container">
+      <div class="card">
+        <img src="/assets/images/illustration-article.svg" alt="html-&-css card main image-">
+        <div class="flow" style="--flow-spacer: 12px">
+            <div class="tag button" data-type="accent">Learning</div>
+            <p class="fs-200 clr-neutral-900">Published 21 Dec 2023</p>
+            <h2 class="card__heading">HTML & CSS foundations</h2>
+            <p>These languages are the backbone of every website, defining structure, content, and presentation.</p>
+        </div>
+        <div class="flex-group">
+          <img src="/assets/images/image-avatar.webp" alt="Greg Hooper profile picture">
+          <p class="fs-200 fw-bold clr-neutral-900">Greg Hooper</p>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <script src="/main.js"></script>
 </body>
